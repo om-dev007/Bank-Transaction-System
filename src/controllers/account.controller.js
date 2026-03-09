@@ -9,6 +9,6 @@ export const createAccountController = async (req, res) => {
 
     return res.status(201).json({
         account,
-        userName: user.name
+        userName: user.name 
     })
 }
